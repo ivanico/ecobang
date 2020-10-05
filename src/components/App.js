@@ -6,7 +6,7 @@ export class App extends React.Component{
     return(
     <div id="app">
       <div id="header">
-        <h1>MENU</h1>
+        <span>MENU</span>
       </div>
       <div id="title">
         <h2>EcoBang</h2>
