@@ -1,0 +1,45 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navigation ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li{
+	float: left;
+	border-right: 1px solid #3498db;
+	position: relative;
+
+}
+
+.navigation ul li a{
+	display: inline-block;
+	padding: 20px 30px;
+	background: #3498db;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+.navigation ul li a:hover{
+	background: #1674b3;
+}
+
+.container {
+	margin-bottom: 20px;
+	background-color: #1674b3;
+	width: 50%;
+	height: 300px;
+	clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 10% 16%, 90% 15%, 90% 85%, 10% 84%, 10% 100%, 100% 100%, 100% 0%);
+}
