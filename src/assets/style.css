@@ -2,9 +2,21 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+body{
+	background-image: url(5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-attachment: fixed; */
+}
+
 .title {
-    font-size: 50px;
+	color: #1d7a41;
+    font-size: 145px;
     font-weight: bold;
+}
+
+.eco{
+padding-top: 100px;
 }
 
 .navigation ul{
@@ -16,7 +28,7 @@ html {
 
 .navigation ul li{
 	float: left;
-	border-right: 1px solid #3498db;
+	border-right: 1px solid #1d7a41;
 	position: relative;
 
 }
@@ -24,7 +36,7 @@ html {
 .navigation ul li a{
 	display: inline-block;
 	padding: 20px 30px;
-	background: #3498db;
+	background: #1d7a41;
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -33,12 +45,12 @@ html {
 }
 
 .navigation ul li a:hover{
-	background: #1674b3;
+	background: #1d7a41;
 }
 
 .container {
 	margin-bottom: 20px;
-	background-color: #1674b3;
+	background-color: #1d7a41;
 	width: 50%;
 	height: 300px;
 	clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 10% 16%, 90% 15%, 90% 85%, 10% 84%, 10% 100%, 100% 100%, 100% 0%);
