@@ -3,16 +3,29 @@ html {
 }
 
 body{
-	background-image: url(5.jpg);
+	background-image: url(backgrounfd3.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+    background-size: cover;
 	/* background-attachment: fixed; */
 }
 
 .title {
-	color: #1d7a41;
+	color: black;
     font-size: 145px;
     font-weight: bold;
+}
+
+.title span {
+    align-items: center;
+}
+
+.title img{
+    width: 110px;
+    height: 110px;
+}
+
+.eco{
+padding-top: 100px;
 }
 
 .navigation ul{
@@ -24,7 +37,7 @@ body{
 
 .navigation ul li{
 	float: left;
-	border-right: 1px solid #1d7a41;
+	border-right: 1px solid black;
 	position: relative;
 
 }
@@ -32,7 +45,7 @@ body{
 .navigation ul li a{
 	display: inline-block;
 	padding: 20px 30px;
-	background: #1d7a41;
+	background: black;
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -41,12 +54,12 @@ body{
 }
 
 .navigation ul li a:hover{
-	background: #87c04b;
+	background: gray;
 }
 
 .container {
 	margin-bottom: 20px;
-	background-color: #1d7a41;
+	background-color: black;
 	width: 50%;
 	height: 300px;
 	clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 10% 16%, 90% 15%, 90% 85%, 10% 84%, 10% 100%, 100% 100%, 100% 0%);

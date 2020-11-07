@@ -1,7 +1,8 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import globe from "../assets/1.png"
-// import backg from '../assets/backgrounfd3.jpg';
+import globe from "../assets/1.png";
+import globe2 from "../assets/6.png";
+
 
 
 import { Header } from './Header';
@@ -13,8 +14,7 @@ export class App extends React.Component{
   render(){
     return(
         <div>
-          {/* <img src={backg}/> */}
-          <div className="title"><span id="eco">EC</span><img src={globe} align="middle"/><span id="bang">BANG</span></div>
+          <div className="title"><span id="eco">EC</span><img src={globe}/><span id="bang">BANG</span></div>
           <Header />
           <Switch>
           <Route exact path="/" component={Home} />
