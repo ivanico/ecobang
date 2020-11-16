@@ -10,9 +10,14 @@ body{
 }
 
 .title {
-	color: #1d7a41;
+	text-shadow:3px 3px 3px #63cfe3;
+	color:#99f5be;
     font-size: 145px;
     font-weight: bold;
+}
+.title img{
+    width: 140px;
+    height: 130px;
 }
 
 .navigation ul{
@@ -32,8 +37,8 @@ body{
 .navigation ul li a{
 	display: inline-block;
 	padding: 20px 30px;
-	background: #1d7a41;
-	color: white;
+	background: #99f5be;
+	color: #1c678c;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 15px;
@@ -41,7 +46,7 @@ body{
 }
 
 .navigation ul li a:hover{
-	background: #87c04b;
+	background: #63cfe3;
 }
 
 .container {
