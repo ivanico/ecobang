@@ -36,6 +36,7 @@ body{
 .navigation ul li{
 	float: left;
 	border-right: 1px solid #99f5be;
+	border-bottom: 1px solid #407663;
 	position: relative;
 
 }
@@ -49,7 +50,6 @@ body{
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
-
 }
 
 .navigation ul li a:hover{
@@ -71,4 +71,30 @@ body{
 	padding-top: 75px;
 	font-size: 80px;
 	width: 60%;
+}
+
+.navigation ul li:hover .sub_menu{
+	display: block;
+}
+
+.navigation .sub_menu{
+	position: absolute;
+	width: 250px;
+	left: 0;
+	top: 63px;
+	display: none;
+}
+
+.sub_menu li{
+	width: 100%;
+	border-bottom:1px solid #3498db;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.sub_menu li a{
+	width: 100%;
+	text-align: left;
+	font-size: 15px;
+	box-sizing: border-box;
 }
