@@ -11,19 +11,33 @@ body{
 }
 
 .title {
+	position: relative;
+	display: flex;
 	padding-bottom: 20px;
-	text-shadow:7px 7px 10px #99f5be;
+	align-items: center;
+	text-shadow:7px 7px 15px  #99f5be;
 	color:#407663;
     font-size: 145px;
-    font-weight: bold;
+	font-weight: bold;
 }
+
+#eco, #bang{
+	line-height: 130px !important;
+	height: 145px;
+	letter-spacing: 15px;
+}
+
 .title img{
 	position: relative;
 	left: 15px;
 	border-radius: 50%;
-	top:15px;
+	/* top:15px; */
     width: 130px;
     height: 130px;
+}
+
+#bang {
+	margin-left: 30px;
 }
 
 .navigation ul{
@@ -35,26 +49,50 @@ body{
 
 .navigation ul li{
 	float: left;
-	border-right: 1px solid #99f5be;
-	border-bottom: 1px solid #407663;
 	position: relative;
-
 }
 
 .navigation ul li a{
-	display: inline-block;
+	border-right: 1px solid #99f5be;
+	position: relative;
+	display: block;
 	padding: 20px 30px;
 	background: #407663;
 	color: #f5af99;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 18px;
+	overflow: hidden;
 	font-weight: bold;
+	z-index: 1;
 }
 
-.navigation ul li a:hover{
-	background: #99f5be;
+.navigation ul li a:hover {
+	color:#f5af99;
 }
+
+.navigation ul li a::before {
+	content:'';
+	position: absolute;
+	display: block;
+	width:100%;
+	height: 100%;
+	left:-100%;
+	bottom:0;
+	background: #99f5be;
+	z-index: -1;
+	transition-delay: 1.3s;
+	transition: .5s left ease-in-out;
+}
+
+.navigation ul li a:hover::before {
+	left:0;
+	z-index: -1;
+}
+
+/* .navigation ul li a:hover{
+	background: #99f5be;
+} */
 
 /* .container {
 	margin-bottom: 20px;
@@ -69,8 +107,18 @@ body{
 	text-shadow:0px 0px 10px #ab7b6b;
 	padding-left: 0%;
 	padding-top: 75px;
-	font-size: 80px;
 	width: 60%;
+	animation: 2s textgrow;
+	font-size: 80px;
+}
+
+@keyframes textgrow {
+	0%{
+		font-size: 1px;	
+	}
+	100%{
+		font-size: 80px;	
+	}
 }
 
 .navigation ul li:hover .sub_menu{
@@ -78,6 +126,7 @@ body{
 }
 
 .navigation .sub_menu{
+	border-bottom:2px solid #407663;
 	position: absolute;
 	width: 250px;
 	left: 0;
@@ -87,7 +136,6 @@ body{
 
 .sub_menu li{
 	width: 100%;
-	border-bottom:1px solid #3498db;
 	text-align: left;
 	box-sizing: border-box;
 }

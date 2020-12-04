@@ -11,7 +11,7 @@ export default class Home extends React.Component{
             <div>
                 <div>
                  <div className="intro">
-                    <span>"The Earth is a fine place and worth fighting for."<br/>
+                    <span>"The Earth is a fine place<br/> and worth fighting for."<br/>
                     Ernest Hemingway</span>                  
                     </div>
                     <div className="container">
