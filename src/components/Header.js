@@ -6,19 +6,21 @@ export const Header = () => {
         <div className="navigation">
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/">EcoKnowledge</NavLink>
+                <li><NavLink to="/">Ecotainment</NavLink>
                     <ul className="sub_menu">
-                        <li><NavLink to="/movies">EcoMovies</NavLink></li>
-                        <li><NavLink to="/documentary">EcoDocumentary</NavLink></li>
-                        <li><NavLink to="/books">EcoBooks</NavLink></li>
-                        <li><NavLink to="/food">EcoFood</NavLink></li>
+                        <li><NavLink to="/movies">Movies</NavLink></li>
+                        <li><NavLink to="/documentary">Documentaries</NavLink></li>
+                        <li><NavLink to="/books">Books</NavLink></li>
+                        <li><NavLink to="/food">Comedy</NavLink></li>
+                        <li><NavLink to="/video">Music Videos</NavLink></li>
                     </ul>
                 </li>
-                <li><NavLink to="/c-profile">CountryProfiles</NavLink></li>
-                <li><NavLink to="/artist">Artists</NavLink></li>
-                <li><NavLink to="/ecoprofile">EcoProfile</NavLink></li>
-                <li><NavLink to="/video">EcoVideo</NavLink></li>
-                <li><NavLink to="/ecocomedy">EcoComedy</NavLink></li>
+                <li><NavLink to="/c-profile">Country Profiles</NavLink></li>
+                <li><NavLink to="/artist">Artist Eco-profiles</NavLink></li>
+                <li><NavLink to="/ecoprofile">Eco Organizations & people</NavLink></li>
+                <li><NavLink to="/video">Eco music Video</NavLink></li>
+                <li><NavLink to="/ecocomedy">Eco Themes</NavLink></li>
+                <li><NavLink to="/ecocomedy">Shop</NavLink></li>
             </ul>
         </div>
     )
