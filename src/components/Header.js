@@ -19,7 +19,17 @@ export const Header = () => {
                 <li><NavLink to="/artist">Artist Eco-profiles</NavLink></li>
                 <li><NavLink to="/ecoprofile">Eco Organizations & people</NavLink></li>
                 <li><NavLink to="/video">Eco music Video</NavLink></li>
-                <li><NavLink to="/ecocomedy">Eco Themes</NavLink></li>
+                <li><NavLink to="/themes">Eco Themes</NavLink>
+                    <ul className="sub_menu">
+                        <li><NavLink to="/food">Food</NavLink></li>
+                        <li><NavLink to="/sustainability">Sustainability</NavLink></li>
+                        <li><NavLink to="/energy">Energy</NavLink></li>
+                        <li><NavLink to="/sixthextinction">Sixth extinction</NavLink></li>
+                        <li><NavLink to="/capitalism">Capitalism</NavLink></li>
+                        <li><NavLink to="/carbon">Reducing a carbon</NavLink></li>
+                        <li><NavLink to="/footprint">Footprint</NavLink></li>
+                    </ul>
+                </li>
                 <li><NavLink to="/ecocomedy">Shop</NavLink></li>
             </ul>
         </div>

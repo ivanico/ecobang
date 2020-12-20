@@ -15,7 +15,7 @@ import EcoFood from './EcoFood';
 import EcoProfile from './EcoProfile';
 import CountryProfiles from './CountryProfiles';
 import EcoArtists from './Artists';
-import EcoComedy from './EcoComedy';
+import EcoThemes from './EcoThemes';
 
 export class App extends React.Component{
   render(){
@@ -33,7 +33,7 @@ export class App extends React.Component{
           <Route path="/ecoprofile" component={EcoProfile}/>
           <Route path="/c-profile" component={CountryProfiles}/>
           <Route path="/ecoartist" component={EcoArtists}/>
-          <Route path="/ecocomedy" component={EcoComedy}/>
+          <Route path="/themes" component={EcoThemes}/>
         </Switch>
         </div>
     )

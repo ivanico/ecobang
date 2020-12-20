@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class EcoComedy extends React.Component {
+export default class EcoThemes extends React.Component {
     render() {
         return (
             <div>
-                EcoComedy
+                EcoThemes
             </div>
         )
     }
