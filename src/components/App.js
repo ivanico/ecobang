@@ -14,17 +14,21 @@ import EcoBooks from './EcoBooks';
 import EcoFood from './EcoFood';
 import EcoProfile from './EcoProfile';
 import CountryProfiles from './CountryProfiles';
-import EcoArtists from './Artists';
+import EcoArtists from './Article';
 import EcoThemes from './EcoThemes';
+import Article from './Article';
+import Capitalism from './Capitalism';
+import Comedy from './Comedy';
 
 export class App extends React.Component{
   render(){
     return(
         <div>
-          <div className="title"><span id="eco">EC</span><img src={globe} /><span id="bang"> <i class="fa fa-caret-right"></i>BANG</span></div>
+          <div className="title"><span id="eco">EC</span><img src={globe} /><span id="bang"> <i className="title-t" class="fa fa-caret-right"></i>BANG</span></div>
           <Header />
           <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/articles" component={Article} />
           <Route path="/video" component={EcoVideo} />
           <Route path="/documentary" component={EcoDocumentary} />
           <Route path="/movies" component={EcoMovies}/>
@@ -34,6 +38,8 @@ export class App extends React.Component{
           <Route path="/c-profile" component={CountryProfiles}/>
           <Route path="/ecoartist" component={EcoArtists}/>
           <Route path="/themes" component={EcoThemes}/>
+          <Route path="/capitalism" component={Capitalism} />
+          <Route path="/comedy" component={Comedy} />
         </Switch>
         </div>
     )

@@ -1,5 +1,5 @@
 html {
-    font-family: "Elsie Swash Caps", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -21,6 +21,10 @@ body{
 	font-weight: bold;
 }
 
+.title i{
+	color: #b98500;
+}
+
 #eco, #bang{
 	line-height: 130px !important;
 	height: 145px;
@@ -34,6 +38,25 @@ body{
 	/* top:15px; */
     width: 130px;
     height: 130px;
+}
+
+.article{
+	width: 600px;
+	height: 400px;
+}
+
+.article-title{
+	padding-left: 23px;
+	font-size: 40px;
+	position: relative;
+	top:414px;
+	color: white;
+}
+
+.video-player{
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 #bang {

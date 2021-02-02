@@ -6,7 +6,8 @@ export default class EcoVideo extends React.Component{
         return(
             <div>
                 EcoVideo
-                <ReactPlayer  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                <ReactPlayer className="video-player"  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                <ReactPlayer  url="https://www.youtube.com/watch?v=XAi3VTSdTxU&ab_channel=michaeljacksonVEVO"/>
             </div>
         )
     }
