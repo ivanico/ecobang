@@ -132,7 +132,7 @@ body{
 	padding-top: 75px;
 	width: 60%;
 	animation: 2s textgrow;
-	font-size: 80px;
+	font-size: 60px;
 }
 
 @keyframes textgrow {
@@ -140,7 +140,7 @@ body{
 		font-size: 1px;	
 	}
 	100%{
-		font-size: 80px;	
+		font-size: 60px;	
 	}
 }
 
@@ -149,13 +149,14 @@ body{
 }
 
 .navigation .sub_menu{
-	border-bottom:2px solid #407663;
+	border-bottom:2px solid #4b9e81;
 	position: absolute;
 	width: 250px;
 	left: 0;
 	top: 63px;
 	display: none;
 }
+
 
 .sub_menu li{
 	width: 100%;

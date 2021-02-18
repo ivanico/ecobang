@@ -11,26 +11,26 @@ export default class EcoVideo extends React.Component{
             speed: 500,
             slidesToShow: 1,
             autoplay: true,
-            autoplaySpeed: 5000,
+            autoplaySpeed: 30000,
             slidesToScroll: 1,
             pauseOnHover: true
           };
         return(
                 <Slider {...settings}>
                 <div>
-                    <ReactPlayer className="video-player"  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                    <ReactPlayer className="video-player"  url="https://www.youtube.com/watch?v=gUUdQfnshJ4&ab_channel=NEAZIXNH"/>
                 </div>
                 <div>
-                    <ReactPlayer  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                    <ReactPlayer  url="https://www.youtube.com/watch?v=XpdpW0z9xnQ&ab_channel=ShuffleSession"/>
                 </div>
                 <div>
-                    <ReactPlayer  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                    <ReactPlayer  url="https://www.youtube.com/watch?v=EJDCAlg83_o&ab_channel=exDrBob1"/>
                 </div>
                 <div>
-                    <ReactPlayer  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                    <ReactPlayer  url="https://www.youtube.com/watch?v=78MNqw9hzOE&ab_channel=DrakeDietrick"/>
                 </div>
                 <div>
-                    <ReactPlayer  url="https://www.youtube.com/watch?v=6k7esY7g4Y8&ab_channel=artemtroitcky"/>
+                    <ReactPlayer  url="https://www.youtube.com/watch?v=fxu0H42-hek&ab_channel=NatalieMerchant-Topic"/>
                 </div>
                 </Slider>
         )
