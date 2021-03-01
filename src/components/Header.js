@@ -15,11 +15,11 @@ export const Header = () => {
                         <li><NavLink to="/documentary">Documentaries</NavLink></li>
                         <li><NavLink to="/books">Books</NavLink>
                             <ul className="sub_menu_books">
-                                <li><NavLink to="/books">Book1</NavLink></li>
-                                <li><NavLink to="/books">Book1</NavLink></li>
-                                <li><NavLink to="/books">Book1</NavLink></li>
-                                <li><NavLink to="/books">Book1</NavLink></li>
-                                <li><NavLink to="/books">Book1</NavLink></li>
+                                <li><NavLink to="/books">Extinction-Elizabeth Kolbert</NavLink></li>
+                                <li><NavLink to="/books">This changes everything-Naomi Klein</NavLink></li>
+                                <li><NavLink to="/books">Greta-no one is too small</NavLink></li>
+                                <li><NavLink to="/books">Losing Earth-nathaniel rich</NavLink></li>
+                                <li><NavLink to="/books">Our Choice-a plan to solve the climate crisis Al Gore</NavLink></li>
                             </ul>
                         </li>
                         <li><NavLink to="/comedy">Comedy</NavLink></li>
