@@ -171,3 +171,30 @@ body{
 	font-size: 15px;
 	box-sizing: border-box;
 }
+
+.sub_menu li:nth-child(4) .sub_menu_books {
+	position: absolute;
+	top: -0px;
+	display: none;
+	right: -100%;
+	max-width: fit-content;
+}
+
+.sub_menu li:nth-child(4):hover .sub_menu_books {
+	display: block;
+	right: -100%;
+	position: absolute;
+}  
+
+/* video1 */
+
+#video {
+	top: 50px;
+	left: 20%;
+	box-shadow:7px 7px 15px  #ab7b6b;
+	border-radius: 5px;
+	position: relative;
+	width: 640px;
+	background-color: white;
+	height: 90%;
+}
