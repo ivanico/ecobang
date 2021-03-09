@@ -259,9 +259,8 @@ body{
 
 #video {
 	box-shadow:0px 0px 10px  black;
-	border-radius: 5px;
 	position: relative;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.75);
 	height: fit-content;
 	padding:25px 35px 25px 0px;
 	min-height:calc(100vh - 320px);
@@ -273,31 +272,45 @@ body{
 
 #video .inner_block .column {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	/* align-items: center;
+	justify-content: center; */
+	height:69.5vh;
 }
 
 #video .inner_block .column-1 {
+	align-items: flex-start;
+	justify-content: center;
 	width:45%;
 }
 
 #video .inner_block .column-2 {
-	width: 55%;
+	align-items: flex-end;
+	justify-content: center;
+	width: 45%;
+}
+
+#video .inner_block .column-2 p {
+	padding: 25px;
+	border-left: solid var(--color-green) 3px;
 }
 
 #video .inner_block .column .content h2 {
-	padding-bottom:15px;
+	padding-bottom:35px;
 	position: relative;
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: 900;
 }
 
 #video .inner_block .column .content h2::before {
 	position: absolute;
 	content:'';
-	width:50px;
-	height:5px;
-	left:0;
-	bottom:-5px;
-	background:
+	width:450px;
+	height:3px;
+	left:70px;
+	bottom:5px;
+	background: var(--color-green);
 }
 
 .width-default {
