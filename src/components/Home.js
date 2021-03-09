@@ -16,7 +16,7 @@ export default class Home extends React.Component{
         //   };
         return(
             <div>
-                <div>
+                <div className="main-container">
                     {/* <Slider {...settings}>
                       <div className="intro">
                     <span>"If you really want to define<br/> civilizations it should be a<br/> culture that
@@ -42,30 +42,31 @@ export default class Home extends React.Component{
                         selling pistols at a gun rally" <br/> Morrissey</span>
                     </div>
                     </Slider> */}
+                    <div className="section-slider width-default">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <span id="quotes">"If you really want to define<br/> civilizations it should be a<br/> culture that
-                                    doesn't destroy<br/> it's environment" <br/> Sting</span>
+                                    <span className="quotes d-block w-100">"If you really want to define civilizations it should be a culture that
+                                    doesn't destroy it's environment" Sting</span>
                                     </div>
                                     <div class="carousel-item">
-                                    <span id="quotes">"Even back in 2015, I was watching<br/> the horrors of Syria unfold on a
-                                    daily <br/>basis and that was disheartening, <br/>as were climate change
-                                    deniers, <br/>though now it's even worse" <br/> Martin Gore</span>
+                                    <span className="quotes d-block w-100">"Even back in 2015, I was watching the horrors of Syria unfold on a
+                                    daily basis and that was disheartening, as were climate change
+                                    deniers, though now it's even worse" Martin Gore</span>
                                     </div>
                                     <div class="carousel-item">
-                                    <span id="quotes">"We need to go further and further,<br/> but people need to do it
-                                    themselves.<br/> You have to attract people to do it"<br/>  Paul McCartney</span>
+                                    <span className="quotes d-block w-100">"We need to go further and further, but people need to do it
+                                    themselves. You have to attract people to do it" Paul McCartney</span>
                                     </div>
                                     <div class="carousel-item">
-                                    <span id="quotes">"Environment affects me a great deal.<br/> A lot of the songs were written
-                                    after<br/> the sun went down. I like the storms,<br/> I like to stay up during a
-                                    storm. <br/>Work while the day lasts, <br/>because the night of death cometh" <br/>
+                                    <span className="quotes d-block w-100">"Environment affects me a great deal. A lot of the songs were written
+                                    after the sun went down. I like the storms, I like to stay up during a
+                                    storm. Work while the day lasts,because the night of death cometh" 
                                     Bob Dylan</span>
                                     </div>
                                     <div class="carousel-item">
-                                    <span id="quotes">"Serving meat and dairy at an <br/> event to combat climate<br/> change is like
-                                    selling pistols at a gun rally" <br/> Morrissey</span>
+                                    <span className="quotes d-block w-100">"Serving meat and dairy at an event to combat climate change is like
+                                    selling pistols at a gun rally" Morrissey</span>
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
@@ -77,6 +78,7 @@ export default class Home extends React.Component{
                                 <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                    </div>
                     
                 </div>
             </div>

@@ -25,8 +25,10 @@ export class App extends React.Component{
   render(){
     return(
         <div>
+          <div className="main-header">
           <div className="title"><span id="eco">EC</span><img src={globe} /><span id="bang"> <i className="title-t" class="fa fa-caret-right"></i>BANG</span></div>
           <Header />
+          </div>
           <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/articles" component={Article} />
